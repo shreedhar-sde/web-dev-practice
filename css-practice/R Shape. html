@@ -1,0 +1,78 @@
+<body>
+  <div class='mb'>
+  <div class='top'>
+      <div class='top-inner'></div>
+  </div>
+  </div>
+   <div class='mb2'>
+      <div class='down'></div>
+     <div class='down-right'></div>
+   </div>
+</body>
+<style>
+  body {
+    background-color: #FFEEEE;
+    margin:0px;
+  }
+  .mb {
+    display: block;
+  }
+  .mb2 {display: flex;}
+  .top
+  {
+    margin-top:46px;
+    margin-left:82px;
+    width: 230px;
+    height:135px;
+    border: solid;
+    border-radius:0 500px 500px 0;
+    background-color:#56AE68;
+    border-color:#56AE68;
+  }
+
+    .top-inner
+  {
+    margin-top:25px;
+    margin-left:25px;
+    width: 180px;
+    height:80px;
+    border: solid;
+    border-radius:0 500px 500px 0;
+    border-color:#FFEEEE;
+    background-color:#FFEEEE;
+  }
+  .down {
+    margin-left:82px; 
+    width: 205px;
+    height:68px;
+    background-color:white;
+    border-width:0px;
+    border: solid;
+    border-radius:0px 500px 0px 0px;
+    border-color:black;
+
+  }
+  .dowjn-right {
+    margin-left:82px; 
+    width: 25px;
+    height:68px;
+    background-color:#56AE68;
+    border: solid;
+    border-radius:0px 200px 0px 0px;
+    border-color:#FFEEEE;
+
+  }
+  .down-rnight {
+    margin-left:1px; 
+    margin-top:0px;
+    border-top-width:0px;
+    width: 25px;
+    height:60px;
+    background-color:#56AE68;
+    border: solid;
+    border-radius:0px 0px 0px 0;
+    border-color:#FFEEEE;
+
+  }
+  
+  </style>
